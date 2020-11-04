@@ -1,3 +1,6 @@
 create or replace procedure proc1 is
+v_ename varchar2(10);
 begin
+select first_name into v_ename from employees
+where employee_id=8980;
 end;
