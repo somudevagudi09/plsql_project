@@ -1,1 +1,2 @@
+##creatin a dept_table###
 create table dept_table (deptno number(10),deptname varchar2(10),city varchar2(10));
