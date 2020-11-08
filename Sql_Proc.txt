@@ -1,3 +1,4 @@
+###creating procedure to retrive employee data ###
 create or replace procedure proc1 is
 v_ename varchar2(10);
 begin
